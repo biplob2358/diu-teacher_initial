@@ -1,4 +1,4 @@
-var name = window.prompt("Enter The Teacher Initial :");
+var name = prompt("Enter The Teacher Initial :");
 console.log(name);
 switch (name) {
   case "MIJ":
@@ -12,4 +12,16 @@ switch (name) {
   case "ZH":
     console.log("Zahid Hasan");
     break;
+  case "NRC":
+    console.log("Narayan Ranjan Chakraborty");
+    break;
+  case "NNM":
+    console.log("Nazmun Nessa Moon");
+    break;
+
+  case "SMTS":
+    console.log("Shah Md Tanvir Siddiquee");
+    break;
+  default:
+    console.log("Data Not Found");
 }
