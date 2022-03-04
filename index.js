@@ -22,6 +22,9 @@ switch (name) {
   case "SMTS":
     console.log("Shah Md Tanvir Siddiquee");
     break;
+  case "PDS":
+    console.log("Partha Dip Sarkar");
+    break;
   default:
     console.log("Data Not Found");
 }
